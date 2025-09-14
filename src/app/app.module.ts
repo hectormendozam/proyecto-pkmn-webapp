@@ -8,6 +8,9 @@ import { LoginScreenComponent } from './screens/login-screen/login-screen.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './partials/navbar/navbar.component';
 import { SidenavComponent } from './partials/sidenav/sidenav.component';
+import { PageHeaderComponent } from './partials/page-header/page-header.component';
+import { FooterComponent } from './partials/footer/footer.component';
+import { LoadingSpinnerComponent } from './partials/loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { SidenavComponent } from './partials/sidenav/sidenav.component';
     HomeScreenComponent,
     LoginScreenComponent,
     NavbarComponent,
-    SidenavComponent
+    SidenavComponent,
+    PageHeaderComponent,
+    FooterComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     BrowserModule,
